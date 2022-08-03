@@ -1,0 +1,12 @@
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Release\appicon.ico
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Release\Readme.txt
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Release\ЛицензионноеСоглашение.txt
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Release\Operator.chm
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Release\Operator.exe
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Release\Operator.pdb
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Release\ResolveAssemblyReference.cache
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Release\Operator.Form1.resources
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Release\Operator.Properties.Resources.resources
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Release\Operator.csproj.GenerateResource.Cache
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Release\Operator.exe
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Release\Operator.pdb

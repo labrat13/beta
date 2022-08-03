@@ -1,0 +1,7 @@
+﻿<s>
+  <row time="02.11.2021-20:50:33.662" code="НачалоСеанса" agent="Operator">Сеанс лога начат: 20211102-205033</row>
+  <row time="02.11.2021-20:50:33.708" code="ТребуетсяОпределить" agent="Operator">On MainForm_Load()</row>
+  <row time="02.11.2021-20:50:33.833" code="ТребуетсяОпределить" agent="Operator">Leave MainForm_Load()</row>
+  <row time="02.11.2021-20:50:46.630" code="ТребуетсяОпределить" agent="Operator">On MainForm_FormClosing()</row>
+  <row time="02.11.2021-20:50:46.646" code="ЗавершениеСеанса" agent="Operator">Сеанс лога закончен: 20211102-205033</row>
+</s>

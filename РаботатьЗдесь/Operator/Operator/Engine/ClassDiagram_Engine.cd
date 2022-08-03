@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Operator.OperatorEngine">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAEAEACBACAAAAAAAEAAAgoAQAAAAACEACAEAA=</HashCode>
+      <FileName>OperatorEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operator.LogSubsystem.LogController" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQECAAIAUEAAAgAACAAAAAAAAAgAAAgACAIAA=</HashCode>
+      <FileName>LogSubsystem\LogController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operator.Engine.SystemEventCanalizator">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\SystemEventCanalizator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Operator.Engine.FlowControlCommandCode">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAkAAAA=</HashCode>
+      <FileName>Engine\FlowControlCommandCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Operator.Engine.SystemStateCode">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQgAgAKEAAAAEAAAAAAACYgAAACAAAAAAMAACA=</HashCode>
+      <FileName>Engine\SystemStateCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

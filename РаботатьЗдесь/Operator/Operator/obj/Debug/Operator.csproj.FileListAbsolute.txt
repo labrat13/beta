@@ -1,0 +1,18 @@
+C:\Documents and Settings\JohnSmith\Мои документы\Visual Studio 2008\Projects\Operator\Operator\bin\Debug\Operator.exe
+C:\Documents and Settings\JohnSmith\Мои документы\Visual Studio 2008\Projects\Operator\Operator\bin\Debug\Operator.pdb
+C:\Documents and Settings\JohnSmith\Мои документы\Visual Studio 2008\Projects\Operator\Operator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\JohnSmith\Мои документы\Visual Studio 2008\Projects\Operator\Operator\obj\Debug\Operator.Form1.resources
+C:\Documents and Settings\JohnSmith\Мои документы\Visual Studio 2008\Projects\Operator\Operator\obj\Debug\Operator.Properties.Resources.resources
+C:\Documents and Settings\JohnSmith\Мои документы\Visual Studio 2008\Projects\Operator\Operator\obj\Debug\Operator.csproj.GenerateResource.Cache
+C:\Documents and Settings\JohnSmith\Мои документы\Visual Studio 2008\Projects\Operator\Operator\obj\Debug\Operator.exe
+C:\Documents and Settings\JohnSmith\Мои документы\Visual Studio 2008\Projects\Operator\Operator\obj\Debug\Operator.pdb
+C:\Documents and Settings\SmithJohn\Рабочий стол\Operator\Operator\obj\Debug\Operator.exe
+C:\Documents and Settings\SmithJohn\Рабочий стол\Operator\Operator\obj\Debug\Operator.pdb
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\Debug\Operator.exe
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\Debug\Operator.pdb
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\Debug\Operator.exe
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\Debug\Operator.pdb
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\Debug\Operator.Form1.resources
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\Debug\Operator.Properties.Resources.resources
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\Debug\Operator.csproj.GenerateResource.Cache

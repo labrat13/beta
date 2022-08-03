@@ -1,0 +1,14 @@
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Debug\Operator.exe
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Debug\Operator.pdb
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Debug\ResolveAssemblyReference.cache
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Debug\Operator.Form1.resources
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Debug\Operator.Properties.Resources.resources
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Debug\Operator.csproj.GenerateResource.Cache
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Debug\Operator.exe
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\obj\x86\Debug\Operator.pdb
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Debug\appicon.ico
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Debug\Readme.txt
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Debug\ЛицензионноеСоглашение.txt
+V:\МоиПроекты\РечевойИнтерфейс\VisualStudio\Operator\Operator\bin\x86\Debug\Operator.chm
+V:\МоиПроекты\Оператор-2\РаботатьЗдесь\Operator\Operator\obj\x86\Debug\Operator.exe
+V:\МоиПроекты\Оператор-2\РаботатьЗдесь\Operator\Operator\obj\x86\Debug\Operator.pdb

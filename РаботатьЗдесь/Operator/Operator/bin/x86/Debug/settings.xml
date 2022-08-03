@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OperatorSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>
+    <MainVersion>1</MainVersion>
+    <SubVersion>0</SubVersion>
+    <PatchNumber>0</PatchNumber>
+    <BuildNumber>0</BuildNumber>
+  </Version>
+  <LogFolderPath>\Log</LogFolderPath>
+  <LogTimeoff>60</LogTimeoff>
+  <LogVersion>
+    <MainVersion>1</MainVersion>
+    <SubVersion>0</SubVersion>
+    <PatchNumber>0</PatchNumber>
+    <BuildNumber>0</BuildNumber>
+  </LogVersion>
+  <РасширениеФайлаЛога>.xmlog</РасширениеФайлаЛога>
+  <ПределРазмераКаталогаЛогаМб>1024</ПределРазмераКаталогаЛогаМб>
+  <ПределРазмераФайлаЛогаМб>1</ПределРазмераФайлаЛогаМб>
+  <ПределКоличестваФайловЛогаВСеансе>999</ПределКоличестваФайловЛогаВСеансе>
+</OperatorSettings>
