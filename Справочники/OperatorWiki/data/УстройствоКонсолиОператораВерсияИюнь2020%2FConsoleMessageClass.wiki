@@ -1,0 +1,55 @@
+﻿++ Устройство Консоли Оператора Версия Июнь2020/Console Message Class
+
+class ConsoleMessageChunk
+{
+    //текст сообщения
+    public string Text;
+    //код цвета текста
+    public ConsoleMessageColorCode TextColor;
+    //код шрифта текста
+    public ConsoleMessageFontCode TextFont;
+}
+
+class ConsoleMessage
+{
+    //текст для RichTextBox контрола
+    public string RtfText;
+    //текст для XML файла лога
+    public string XmlText;
+    //текст для отладчика и прочих идей
+    public string PlainText;
+    //список кусков сообщения
+    private List<ConsoleMessageChunk> m_chunkList;
+    
+    public void AddMessageChunk(string text, ConsoleMessageColorCode colorCode);
+    public void AddMessageChunk(string text, ConsoleMessageColorCode colorCode, ConsoleMessageFontCode fontCode);
+    
+    public void CompositeMessage()
+    {
+        //собрать строку ртф
+        compositeRtfText();
+        //собрать строку хмл
+        compositeXmlText();
+        //собрать строку текста
+        compositePlainText();
+        
+        //или одновременно все собирать?
+        m_chunkList.Clear();
+        m_chunkList = null;
+    
+        return;
+    }
+    
+    //конструктор сообщения
+    public ConsoleMessage()
+    {
+        this.m_chunkList = new List<ConsoleMessageChunk>(4);
+    }
+    //возможно, пригодится конструктор сообщения одним куском
+    public ConsoleMessage(string text, ConsoleMessageColorCode colorCode, ConsoleMessageFontCode fontCode)
+    {
+        this.m_chunkList = new List<ConsoleMessageChunk>(4);
+        AddMessageChunk(text, colorCode, fontCode);
+    }
+
+}

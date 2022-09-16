@@ -1,0 +1,3039 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="8.55" multi-file="no">
+  <meta>
+    <name>Организация Оператор</name>
+    <authors> </authors>
+    <description>Устройство Оператора как совокупности модулей и ба данных.
+Сценарии использования Оператора.</description>
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlActor" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlUseCase" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlComponent" />
+        <value>27</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlPackage" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlNode" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlArtifact" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="Task" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="Plan" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlInterface" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCommunicationLifeline" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlSwimlane" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlInitialNode" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCallBehaviorAction" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlLifeline" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlSequenceAction" />
+        <value>27</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivationBar" />
+        <value>25</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlActor" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlUseCase" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlAssociation" />
+        <value>32</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlComponent" />
+        <value>28</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlPackage" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlNode" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlArtifact" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="Task" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="Plan" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlInterface" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlProvidedInterfaceConnector" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCommunicationLifeline" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCommunicationMessage" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlSwimlane" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlInitialNode" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCallBehaviorAction" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlLifeline" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlSequenceAction" />
+        <value>28</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivationBar" />
+        <value>26</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlExtend" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlComment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>8</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlComponentDiagram</type>
+        <value>4</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>13</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlDeploymentDiagram</type>
+        <value>3</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.RequirementDiagram</type>
+        <value>2</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlCommunicationDiagram</type>
+        <value>3</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.HierarchicalTaskAnalysisDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlCompositeStructureDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlActivityDiagram</type>
+        <value>4</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>14</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlSequenceDiagram</type>
+        <value>3</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>5</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>2</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="Pa7c3c5b2da7146938eff36c87c5b3eb9">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Class:di645253193172301957" tid="" name="КлассСущности" description="" nullable="false" class-ref="di645253193172301957" />
+    </custom-types>
+  </types>
+  <filters />
+  <items>
+    <item id="di501270001976929614" cid="UC001" type="use-case" name="Запрос &quot;Найти метлу&quot;" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 11:55:41">
+      <stereotypes />
+      <documentation>
+        <text>
+          <styles>
+            <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </styles>
+          <content>
+            <paragraph>
+              <p s="S1">
+                <t>
+</t>
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams>
+        <diagram id="p230272051651462879" />
+      </associated-diagrams>
+      <owned-items />
+      <style class="default" />
+      <use-case>
+        <description>Запрос пользователя на поиск</description>
+        <primary-actor>di245780399207519411</primary-actor>
+        <flow-of-events>
+          <event>
+            <id>ucfe-2f8c3882ca8347db93e8d69f15bc8235</id>
+            <cid>1</cid>
+            <name />
+            <description />
+          </event>
+        </flow-of-events>
+      </use-case>
+    </item>
+    <item id="di824194525702157708" cid="REL001" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 11:55:41">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di501270001976929614" to="di245780399207519411">
+        <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di876883293235704781" cid="ELEM001" type="uml-provided-interface-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:24:32">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p951906825462438738" name="Model 1" type="model" namespace="" order-index="1" expanded="true">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>02/03/2019 11:55:11</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="di245780399207519411" cid="AC001" type="actor" name="Пользователь" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 11:55:19">
+          <stereotypes />
+          <associated-diagrams />
+          <owned-items />
+          <style class="default" />
+        </item>
+        <item id="di807451351442461850" cid="CPT002" type="component" name="Operator.exe" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 12:05:49">
+          <stereotypes>
+            <stereotype name="entity" />
+          </stereotypes>
+          <documentation>
+            <text>
+              <styles>
+                <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                  <text>
+                    <solid-brush color="#FF000000" />
+                  </text>
+                </style>
+              </styles>
+              <content>
+                <paragraph>
+                  <p s="S1">
+                    <t>
+</t>
+                  </p>
+                </paragraph>
+              </content>
+            </text>
+          </documentation>
+          <cooperation>
+            <participants />
+            <comments />
+          </cooperation>
+          <associated-diagrams>
+            <diagram id="p781408411232995040" />
+          </associated-diagrams>
+          <owned-items />
+          <style class="default" />
+        </item>
+      </abstract-items>
+      <sub-models />
+      <diagram type="uml-usecase" id="p528299740648404987" name="UseCaseDiagram1" order-index="1" expanded="true" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 11:55:11</creation-date>
+          <change-date>02/03/2019 13:41:31</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di705956039915874550" cid="UC002" type="use-case" name="Запрос Найти предмет Метла" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:39:20">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di199859029348390896" cid="UC003" type="use-case" name="Запрос Найти радиодеталь Х" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:39:45">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di786160554327850779" cid="UC004" type="use-case" name="Запрос Найти файл Х " style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:40:15">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di506813640670945792" cid="UC005" type="use-case" name="Запрос Найти документ Х" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:40:44">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <use-case />
+          </item>
+          <item id="di735909538809956473" cid="EX001" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:41:16">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+          <item id="di702635586603300987" cid="EX002" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:41:22">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+          <item id="di139320606381041007" cid="EX003" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:41:27">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+          <item id="di481878721726471367" cid="EX004" type="extend" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:41:31">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <extend extension-point="" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di245780399207519411" iid="e0c00d23b358422fb5ceeffc70a8736a" creation-date="02/03/2019 11:55:19" order-index="0" type="entity">
+            <layout ax="35" ay="21" awidth="50" aheight="100" x="35" y="21" width="50" height="220" angle="0" name-position="0,10" name-anchor="bottom" />
+          </item>
+          <item id="di501270001976929614" iid="6c8b93cadf10418fba7935683003642c" creation-date="02/03/2019 11:55:41" order-index="1" type="entity">
+            <layout ax="185" ay="33.5" awidth="129" aheight="81" x="185" y="33.5" width="129" height="75" angle="0" />
+            <use-case />
+          </item>
+          <item id="di824194525702157708" iid="d1184a6a1c56421e8843d73a6228aa49" creation-date="02/03/2019 11:55:41" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="185" y1="73" x2="85" y2="71" start-border-pos="0.878167635128822" end-border-pos="0.375986843109131">
+              <points>
+                <point x="185" y="73" />
+                <point x="85" y="71" />
+              </points>
+            </layout>
+            <relation from="di501270001976929614" from-iid="6c8b93cadf10418fba7935683003642c" to="di245780399207519411" to-iid="e0c00d23b358422fb5ceeffc70a8736a" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di705956039915874550" iid="8226fadac32149a399a7cc4dba7b5329" creation-date="02/03/2019 13:39:20" order-index="3" type="entity">
+            <layout ax="460" ay="46" awidth="129" aheight="81" x="460" y="46" width="129" height="81" angle="0" />
+            <use-case />
+          </item>
+          <item id="di199859029348390896" iid="53a401915efc4289b63addb9de734e63" creation-date="02/03/2019 13:39:45" order-index="4" type="entity">
+            <layout ax="470" ay="156" awidth="129" aheight="81" x="470" y="156" width="129" height="81" angle="0" />
+            <use-case />
+          </item>
+          <item id="di786160554327850779" iid="47153f87365b402e910a4a56324a52ec" creation-date="02/03/2019 13:40:15" order-index="5" type="entity">
+            <layout ax="470" ay="266" awidth="129" aheight="81" x="470" y="266" width="129" height="81" angle="0" />
+            <use-case />
+          </item>
+          <item id="di506813640670945792" iid="f3a966fceac340a68531619f214953cf" creation-date="02/03/2019 13:40:44" order-index="6" type="entity">
+            <layout ax="470" ay="376" awidth="129" aheight="81" x="470" y="376" width="129" height="81" angle="0" />
+            <use-case />
+          </item>
+          <item id="di735909538809956473" iid="3191b58e16f148e6918a77f8335dab90" creation-date="02/03/2019 13:41:16" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="461" y1="95" x2="313" y2="80" start-border-pos="0.849863994268724" end-border-pos="0.39465946621365">
+              <points>
+                <point x="461" y="95" />
+                <point x="313" y="80" />
+              </points>
+            </layout>
+            <relation from="di705956039915874550" from-iid="8226fadac32149a399a7cc4dba7b5329" to="di501270001976929614" to-iid="6c8b93cadf10418fba7935683003642c" />
+          </item>
+          <item id="di702635586603300987" iid="eefbb522e9b246b09d5832112fa138dd" creation-date="02/03/2019 13:41:22" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="484" y1="171" x2="293" y2="103" start-border-pos="0.952768820303458" end-border-pos="0.540697674418605">
+              <points>
+                <point x="484" y="171" />
+                <point x="293" y="103" />
+              </points>
+            </layout>
+            <relation from="di199859029348390896" from-iid="53a401915efc4289b63addb9de734e63" to="di501270001976929614" to-iid="6c8b93cadf10418fba7935683003642c" />
+          </item>
+          <item id="di139320606381041007" iid="eb4d0f9bb6bf41788b68656209399b91" creation-date="02/03/2019 13:41:27" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="480" y1="284" x2="272" y2="111" start-border-pos="0.0198767610298571" end-border-pos="0.581395348837209">
+              <points>
+                <point x="480" y="284" />
+                <point x="272" y="111" />
+              </points>
+            </layout>
+            <relation from="di786160554327850779" from-iid="47153f87365b402e910a4a56324a52ec" to="di501270001976929614" to-iid="6c8b93cadf10418fba7935683003642c" />
+          </item>
+          <item id="di481878721726471367" iid="f0424864dd17441a9d55aca39105f20f" creation-date="02/03/2019 13:41:31" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="506" y1="380" x2="248" y2="114" start-border-pos="0.0697674418604651" end-border-pos="0.627906976744186">
+              <points>
+                <point x="506" y="380" />
+                <point x="248" y="114" />
+              </points>
+            </layout>
+            <relation from="di506813640670945792" from-iid="f3a966fceac340a68531619f214953cf" to="di501270001976929614" to-iid="6c8b93cadf10418fba7935683003642c" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="requirements" id="p615509171842569185" name="RequirementDiagram1" order-index="2" overview-order-index="0" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:02:25</creation-date>
+          <change-date>02/03/2019 12:02:25</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+      <diagram type="uml-component" id="p125515135117069374" name="Компоненты системы Оператора" order-index="3" overview-order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:02:55</creation-date>
+          <change-date>02/03/2019 12:49:28</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di151657195366497010" cid="CPT004" type="component" name="Бд словоформ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 12:13:13">
+            <stereotypes>
+              <stereotype name="entity" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di330937460552760825" cid="CPT005" type="component" name="Хранилище" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 12:14:02">
+            <stereotypes>
+              <stereotype name="entity" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di700722092134895641" cid="CPT006" type="component" name="Менеджер Хранилищ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:15:02">
+            <stereotypes />
+            <associated-diagrams>
+              <diagram id="p824200733825074414" />
+            </associated-diagrams>
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di932719311433544482" cid="CPT007" type="component" name="Менеджер Словоформ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="public" creation-date="02/03/2019 12:15:32">
+            <stereotypes>
+              <stereotype name="realization" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams>
+              <diagram id="p865868909248237076" />
+            </associated-diagrams>
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di573374721591348029" cid="CPT008" type="component" name="Движок Инвентарь" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:16:39">
+            <stereotypes />
+            <associated-diagrams>
+              <diagram id="p424869091754096203" />
+            </associated-diagrams>
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di535495869688454572" cid="CPT009" type="component" name="БД Инвентарь" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 12:17:09">
+            <stereotypes>
+              <stereotype name="entity" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di357500051785855164" cid="CPT010" type="component" name="Кеш словоформ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:17:58">
+            <stereotypes />
+            <associated-diagrams>
+              <diagram id="p797567809601542679" />
+            </associated-diagrams>
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di644439892859262338" cid="CPT011" type="component" name="Кеш классов сущностей" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:18:22">
+            <stereotypes />
+            <associated-diagrams>
+              <diagram id="p472727600959929950" />
+            </associated-diagrams>
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di516450297723882524" cid="CPT012" type="component" name="Менеджер классов Сущностей" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:19:10">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>Обслуживает </t>
+                    </p>
+                    <p s="S1">
+                      <t>БД </t>
+                    </p>
+                    <p s="S1">
+                      <t>классов </t>
+                    </p>
+                    <p s="S1">
+                      <t>Сущностей.
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <associated-diagrams>
+              <diagram id="p631696853292995373" />
+            </associated-diagrams>
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di124893111519798192" cid="CPT013" type="component" name="БД классов Сущностей" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 12:19:13">
+            <stereotypes>
+              <stereotype name="entity" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di849063304443804231" cid="REL002" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:26:37">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di807451351442461850" to="di357500051785855164">
+              <start-role id="" name="" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di859922479336677998" cid="REL003" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:26:44">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di807451351442461850" to="di644439892859262338">
+              <start-role id="" name="" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di341888688619340934" cid="REL004" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:26:56">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di932719311433544482" to="di151657195366497010">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di342895839527906556" cid="REL005" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:27:01">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di700722092134895641" to="di330937460552760825">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di412606108263742438" cid="REL006" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:27:04">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di573374721591348029" to="di535495869688454572">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di225193650841982325" cid="REL007" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:27:08">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di516450297723882524" to="di124893111519798192">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di359889155151357412" cid="REL008" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:27:23">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di807451351442461850" to="di932719311433544482">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di479676102802826908" cid="REL009" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:27:26">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di807451351442461850" to="di700722092134895641">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di393353696172485626" cid="REL010" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:27:33">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di807451351442461850" to="di573374721591348029">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di767362049721912956" cid="REL011" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:27:37">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di807451351442461850" to="di516450297723882524">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di807451351442461850" iid="9fa84ef78cf9420997d588f743bfbcc7" creation-date="02/03/2019 12:05:49" order-index="0" type="entity">
+            <layout ax="66" ay="51" awidth="135" aheight="86" x="66" y="51" width="135" height="86" angle="0" />
+          </item>
+          <item id="di151657195366497010" iid="88a954b81e3e49a9a12491a85b49f3fc" creation-date="02/03/2019 12:13:13" order-index="1" type="entity">
+            <layout ax="530" ay="51" awidth="154" aheight="86" x="530" y="51" width="154" height="86" angle="0" />
+          </item>
+          <item id="di330937460552760825" iid="3e56b87cf8a2477b983a4354e48ecac3" creation-date="02/03/2019 12:14:02" order-index="2" type="entity">
+            <layout ax="530" ay="163" awidth="154" aheight="86" x="530" y="163" width="154" height="86" angle="0" />
+          </item>
+          <item id="di700722092134895641" iid="4e5ae24a924d47e497a28f7d29e0eca3" creation-date="02/03/2019 12:15:02" order-index="3" type="entity">
+            <layout ax="362.5" ay="162" awidth="135" aheight="86" x="362.5" y="162" width="135" height="86" angle="0" />
+          </item>
+          <item id="di932719311433544482" iid="f53f2f51cc9d440d9a56081e878056e7" creation-date="02/03/2019 12:15:32" order-index="4" type="entity">
+            <layout ax="362.5" ay="51" awidth="135" aheight="86" x="362.5" y="51" width="135" height="86" angle="0" />
+          </item>
+          <item id="di573374721591348029" iid="d34e66f8aed24bd3a7d6719280ac056c" creation-date="02/03/2019 12:16:39" order-index="5" type="entity">
+            <layout ax="363.5" ay="272" awidth="135" aheight="86" x="363.5" y="272" width="135" height="86" angle="0" />
+          </item>
+          <item id="di535495869688454572" iid="3cf55c7166c04095834b89dba6b0d680" creation-date="02/03/2019 12:17:09" order-index="6" type="entity">
+            <layout ax="530" ay="273" awidth="154" aheight="86" x="530" y="273" width="154" height="86" angle="0" />
+          </item>
+          <item id="di357500051785855164" iid="924a6e7c3e184478a16095ae65128551" creation-date="02/03/2019 12:17:58" order-index="7" type="entity">
+            <layout ax="-33" ay="298" awidth="135" aheight="86" x="-33" y="298" width="135" height="86" angle="0" />
+          </item>
+          <item id="di644439892859262338" iid="b50aed50d95140a7b5718a7b0db86ed1" creation-date="02/03/2019 12:18:22" order-index="8" type="entity">
+            <layout ax="131" ay="298" awidth="135" aheight="86" x="131" y="298" width="135" height="86" angle="0" />
+          </item>
+          <item id="di516450297723882524" iid="4248280906c24a6ca71087d554651efa" creation-date="02/03/2019 12:19:10" order-index="9" type="entity">
+            <layout ax="359.5" ay="384" awidth="135" aheight="86" x="359.5" y="384" width="135" height="86" angle="0" />
+          </item>
+          <item id="di124893111519798192" iid="dd40e5f5777c474792b968c193f9bbf6" creation-date="02/03/2019 12:19:13" order-index="10" type="entity">
+            <layout ax="529" ay="384" awidth="154" aheight="86" x="529" y="384" width="154" height="86" angle="0" />
+          </item>
+          <item id="di849063304443804231" iid="689e2ab9c776428da6666d36d0bf5fa4" creation-date="02/03/2019 12:26:37" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="123" y1="137" x2="59" y2="298" start-border-pos="0.644444444444444" end-border-pos="0.17037037037037">
+              <points>
+                <point x="123" y="137" />
+                <point x="59" y="298" />
+              </points>
+            </layout>
+            <relation from="di807451351442461850" from-iid="9fa84ef78cf9420997d588f743bfbcc7" to="di357500051785855164" to-iid="924a6e7c3e184478a16095ae65128551" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di859922479336677998" iid="cc03b21e62d24bfc8dd79e8ed4d9e240" creation-date="02/03/2019 12:26:44" order-index="12" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="130" y1="137" x2="185" y2="298" start-border-pos="0.631481481481482" end-border-pos="0.1">
+              <points>
+                <point x="130" y="137" />
+                <point x="185" y="298" />
+              </points>
+            </layout>
+            <relation from="di807451351442461850" from-iid="9fa84ef78cf9420997d588f743bfbcc7" to="di644439892859262338" to-iid="b50aed50d95140a7b5718a7b0db86ed1" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di341888688619340934" iid="33fc29653a7e46d38c3fc3d4c8e205f6" creation-date="02/03/2019 12:26:56" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="498" y1="84" x2="530" y2="94" start-border-pos="0.34593023255814" end-border-pos="0.875">
+              <points>
+                <point x="498" y="84" />
+                <point x="530" y="94" />
+              </points>
+            </layout>
+            <relation from="di932719311433544482" from-iid="f53f2f51cc9d440d9a56081e878056e7" to="di151657195366497010" to-iid="88a954b81e3e49a9a12491a85b49f3fc" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di342895839527906556" iid="7d8fdb96f7ca4d6389c3682a01cec2ba" creation-date="02/03/2019 12:27:01" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="498" y1="216" x2="530" y2="216" start-border-pos="0.406976744186047" end-border-pos="0.845930232558139">
+              <points>
+                <point x="498" y="216" />
+                <point x="530" y="216" />
+              </points>
+            </layout>
+            <relation from="di700722092134895641" from-iid="4e5ae24a924d47e497a28f7d29e0eca3" to="di330937460552760825" to-iid="3e56b87cf8a2477b983a4354e48ecac3" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di412606108263742438" iid="fd7be598713e45f3b8497c87648e98eb" creation-date="02/03/2019 12:27:04" order-index="15" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="498" y1="330" x2="530" y2="331" start-border-pos="0.418604651162791" end-border-pos="0.831395348837209">
+              <points>
+                <point x="498" y="330" />
+                <point x="530" y="331" />
+              </points>
+            </layout>
+            <relation from="di573374721591348029" from-iid="d34e66f8aed24bd3a7d6719280ac056c" to="di535495869688454572" to-iid="3cf55c7166c04095834b89dba6b0d680" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di225193650841982325" iid="22b1bf3f5f9741918dcd77f13c2b61e2" creation-date="02/03/2019 12:27:08" order-index="16" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="494" y1="435" x2="529" y2="432" start-border-pos="0.398255813953488" end-border-pos="0.859011627906977">
+              <points>
+                <point x="494" y="435" />
+                <point x="529" y="432" />
+              </points>
+            </layout>
+            <relation from="di516450297723882524" from-iid="4248280906c24a6ca71087d554651efa" to="di124893111519798192" to-iid="dd40e5f5777c474792b968c193f9bbf6" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di359889155151357412" iid="e8db13d2a0b24f8fa114c7e27be97dde" creation-date="02/03/2019 12:27:23" order-index="17" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="201" y1="97" x2="362" y2="107" start-border-pos="0.383720930232558" end-border-pos="0.836076714271723">
+              <points>
+                <point x="201" y="97" />
+                <point x="362" y="107" />
+              </points>
+            </layout>
+            <relation from="di807451351442461850" from-iid="9fa84ef78cf9420997d588f743bfbcc7" to="di932719311433544482" to-iid="f53f2f51cc9d440d9a56081e878056e7" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di479676102802826908" iid="ce3a72a0e23d4305b078ce6617a4b355" creation-date="02/03/2019 12:27:26" order-index="18" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="201" y1="116" x2="362" y2="163" start-border-pos="0.438953488372093" end-border-pos="0.997093023255814">
+              <points>
+                <point x="201" y="116" />
+                <point x="362" y="163" />
+              </points>
+            </layout>
+            <relation from="di807451351442461850" from-iid="9fa84ef78cf9420997d588f743bfbcc7" to="di700722092134895641" to-iid="4e5ae24a924d47e497a28f7d29e0eca3" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di393353696172485626" iid="ebf3a2371b854e54ba5bc4288187e8b5" creation-date="02/03/2019 12:27:33" order-index="19" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="187" y1="137" x2="364" y2="272" start-border-pos="0.525925925925926" end-border-pos="0" name-width="50">
+              <points>
+                <point x="187" y="137" />
+                <point x="364" y="272" />
+              </points>
+            </layout>
+            <relation from="di807451351442461850" from-iid="9fa84ef78cf9420997d588f743bfbcc7" to="di573374721591348029" to-iid="d34e66f8aed24bd3a7d6719280ac056c" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di767362049721912956" iid="51a565a82c3040a3803451af1baf4a65" creation-date="02/03/2019 12:27:37" order-index="20" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="160" y1="137" x2="387" y2="384" start-border-pos="0.575925925925926" end-border-pos="0.0516858136212384">
+              <points>
+                <point x="160" y="137" />
+                <point x="387" y="384" />
+              </points>
+            </layout>
+            <relation from="di807451351442461850" from-iid="9fa84ef78cf9420997d588f743bfbcc7" to="di516450297723882524" to-iid="4248280906c24a6ca71087d554651efa" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-package" id="p865868909248237076" name="Пакеты МенеджерСловоформ" order-index="4" overview-order-index="2" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:36:06</creation-date>
+          <change-date>02/03/2019 12:37:04</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di897670293874380997" cid="PKG003" type="package" name="Пакет Менеджер Словоформ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 12:36:12">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <nestedItems />
+          </item>
+          <item id="di936572547998052112" cid="C001" type="class" name="КлассМенеджерСловоформ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:37:04">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di897670293874380997" iid="8efe649d800243ecb219e847ada48e0f" creation-date="02/03/2019 12:36:12" order-index="0" type="entity">
+            <layout ax="39" ay="38" awidth="580" aheight="462" x="39" y="38" width="580" height="462" angle="0" />
+          </item>
+          <item id="di936572547998052112" iid="aff23fd1d1e9458a816e8a90fc90577b" container="di897670293874380997" container-iid="8efe649d800243ecb219e847ada48e0f" creation-date="02/03/2019 12:37:04" order-index="1" type="entity">
+            <layout ax="62" ay="85" awidth="231" aheight="160" x="62" y="85" width="231" height="160" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-package" id="p781408411232995040" name="Пакеты Оператор" order-index="5" overview-order-index="3" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:38:42</creation-date>
+          <change-date>02/03/2019 12:39:46</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di778106437661808301" cid="PKG004" type="package" name="Пакет Оператор" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:38:59">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <nestedItems />
+          </item>
+          <item id="di173124267934509788" cid="C002" type="class" name="Класс Оператор" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 12:39:46">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di778106437661808301" iid="d4e941172dfd4258aad06ce8d1d30cf0" creation-date="02/03/2019 12:38:59" order-index="0" type="entity">
+            <layout ax="90" ay="80" awidth="425" aheight="336" x="90" y="80" width="425" height="336" angle="0" />
+          </item>
+          <item id="di173124267934509788" iid="96c6a18b4d3147e290f27ef8ca8cba04" container="di778106437661808301" container-iid="d4e941172dfd4258aad06ce8d1d30cf0" creation-date="02/03/2019 12:39:46" order-index="1" type="entity">
+            <layout ax="119" ay="121" awidth="140" aheight="160" x="119" y="121" width="140" height="160" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-package" id="p824200733825074414" name="Пакеты Менеджер Хранилищ" order-index="6" overview-order-index="4" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,12">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:40:26</creation-date>
+          <change-date>02/03/2019 12:41:07</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di178823025199939438" cid="PKG005" type="package" name="Пакет МенеджерХранилищ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:40:45">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <nestedItems />
+          </item>
+          <item id="di180091221171391809" cid="C003" type="class" name="Класс МенеджерХранилищ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:41:07">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di178823025199939438" iid="fdb13d430caa40278f8feb46670cb131" creation-date="02/03/2019 12:40:45" order-index="0" type="entity">
+            <layout ax="95" ay="89" awidth="553" aheight="513" x="95" y="89" width="553" height="513" angle="0" />
+          </item>
+          <item id="di180091221171391809" iid="0593452d888143f18073384f47a73505" container="di178823025199939438" container-iid="fdb13d430caa40278f8feb46670cb131" creation-date="02/03/2019 12:41:07" order-index="1" type="entity">
+            <layout ax="134" ay="162" awidth="227" aheight="160" x="134" y="162" width="227" height="160" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p631696853292995373" name="Классы МенеджерКлассовСущностей" order-index="8" overview-order-index="6" expanded="true" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-1,0">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:43:57</creation-date>
+          <change-date>02/08/2019 00:54:20</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di437001655202737164" cid="C006" type="class" name="МенеджерКлассовСущностей" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 12:44:40">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>Главный </t>
+                    </p>
+                    <p s="S1">
+                      <t>класс, </t>
+                    </p>
+                    <p s="S1">
+                      <t>обслуживает </t>
+                    </p>
+                    <p s="S1">
+                      <t>БД </t>
+                    </p>
+                    <p s="S1">
+                      <t>классов </t>
+                    </p>
+                    <p s="S1">
+                      <t>Сущностей.
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o04b5595405c44002880324448e921d4b718" cid="OP001" name="СуществуетЛиУказанныйКласс" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pcb574ed7a7174e7fa80fa6bb88469d35" name="класс" type="КлассСущности" type-id="Class:di645253193172301957" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o4e128be2982047fbb274f7f23e8832a9953" cid="OP002" name="УникальноеЛиНазваниеКласса" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pcc6ebe9521b244d695c718a583df2a5c" name="НазваниеКласса" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob94371b7d53b457fb403ef13e0c7644a171" cid="OP004" name="ЯвляетсяЛиПотомком" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pf9d5b6ecd7d84f468fbfb385fa4313a8" name="родитель" type="КлассСущности" type-id="Class:di645253193172301957" />
+                  <parameter id="p34e5a83830904ad882dcc1832cd83565" name="потомок" type="КлассСущности" type-id="Class:di645253193172301957" />
+                </parameters>
+                <documentation>
+                  <text>
+                    <styles>
+                      <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </styles>
+                    <definition>
+                      <sections>
+                        <section name="">
+                          <default-page>
+                            <page size="21,29.7" header-offset="15" footer-offset="15" unit="mm">
+                              <margins left="20" right="20" top="20" bottom="20" />
+                            </page>
+                          </default-page>
+                        </section>
+                      </sections>
+                    </definition>
+                    <content>
+                      <paragraph>
+                        <p s="S1">
+                          <t>Функция </t>
+                        </p>
+                        <p s="S1">
+                          <t>определяет, </t>
+                        </p>
+                        <p s="S1">
+                          <t>с</t>
+                        </p>
+                        <p s="S1">
+                          <t>вязаны </t>
+                        </p>
+                        <p s="S1">
+                          <t>ли </t>
+                        </p>
+                        <p s="S1">
+                          <t>два </t>
+                        </p>
+                        <p s="S1">
+                          <t>класса </t>
+                        </p>
+                        <p s="S1">
+                          <t>отношением.
+</t>
+                        </p>
+                      </paragraph>
+                    </content>
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di645253193172301957" cid="C010" type="class" name="КлассСущности" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="public" creation-date="02/08/2019 00:54:20">
+            <stereotypes>
+              <stereotype name="implementationClass" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a539f4fc018e347c4acd3227ae78ce036187" cid="AT001" name="Название" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+                <documentation>
+                  <text>
+                    <styles>
+                      <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </styles>
+                    <definition>
+                      <sections>
+                        <section name="">
+                          <default-page>
+                            <page size="21,29.7" header-offset="15" footer-offset="15" unit="mm">
+                              <margins left="20" right="20" top="20" bottom="20" />
+                            </page>
+                          </default-page>
+                        </section>
+                      </sections>
+                    </definition>
+                    <content>
+                      <paragraph>
+                        <p s="S1">
+                          <t>Название </t>
+                        </p>
+                        <p s="S1">
+                          <t>класса, </t>
+                        </p>
+                        <p s="S1">
+                          <t>должно </t>
+                        </p>
+                        <p s="S1">
+                          <t>быть </t>
+                        </p>
+                        <p s="S1">
+                          <t>уникальным </t>
+                        </p>
+                        <p s="S1">
+                          <t>в </t>
+                        </p>
+                        <p s="S1">
+                          <t>Хранилище.
+</t>
+                        </p>
+                      </paragraph>
+                    </content>
+                  </text>
+                </documentation>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o296549ae3e75498a9da7cfdc002e36aa734" cid="OP003" name="Конструктор" type="" type-id="" visibility="public">
+                <style class="default" />
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+                <documentation>
+                  <text>
+                    <styles>
+                      <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </styles>
+                    <definition>
+                      <sections>
+                        <section name="">
+                          <default-page>
+                            <page size="21,29.7" header-offset="15" footer-offset="15" unit="mm">
+                              <margins left="20" right="20" top="20" bottom="20" />
+                            </page>
+                          </default-page>
+                        </section>
+                      </sections>
+                    </definition>
+                    <content>
+                      <paragraph>
+                        <p s="S1">
+                          <t>Конструктор </t>
+                        </p>
+                        <p s="S1">
+                          <t>класса
+</t>
+                        </p>
+                      </paragraph>
+                    </content>
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                  <source-code language="CSharp" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di437001655202737164" iid="392f98c6a6424e6dbddf7f03d669e4ff" creation-date="02/03/2019 12:44:40" order-index="0" type="entity">
+            <layout ax="60" ay="86" awidth="351" aheight="160" x="60" y="86" width="351" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di645253193172301957" iid="1e969c7e30dc45fdb334ac9b4a8b1543" creation-date="02/08/2019 00:54:20" order-index="1" type="entity">
+            <layout ax="486" ay="86" awidth="176" aheight="160" x="486" y="86" width="176" height="160" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p424869091754096203" name="Классы ДвижокИнвентарь" order-index="9" overview-order-index="7" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:46:35</creation-date>
+          <change-date>02/03/2019 12:47:03</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di469300957225251101" cid="C007" type="class" name="ДвижокИнвентарь" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:47:03">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di469300957225251101" iid="3c87976164e34450a43e70f2abba1445" creation-date="02/03/2019 12:47:03" order-index="0" type="entity">
+            <layout ax="86" ay="97" awidth="159" aheight="160" x="86" y="97" width="159" height="160" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p797567809601542679" name="Классы КешСловоформ" order-index="10" overview-order-index="8" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:48:18</creation-date>
+          <change-date>02/03/2019 12:48:53</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di755299577919949375" cid="C008" type="class" name="МенеджерКешСловоформ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:48:53">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di755299577919949375" iid="c22c622960a4441bbf36b11297b84938" creation-date="02/03/2019 12:48:53" order-index="0" type="entity">
+            <layout ax="60" ay="77" awidth="219" aheight="104" x="60" y="77" width="219" height="104" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p472727600959929950" name="Классы КешКлассовСущностей" order-index="11" overview-order-index="9" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:49:28</creation-date>
+          <change-date>02/03/2019 12:49:46</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di537149559334438517" cid="C009" type="class" name="МенеджерКешКлассовСущностей" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:49:46">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di537149559334438517" iid="79950c6a84ce495ea86a3f660be5daf6" creation-date="02/03/2019 12:49:46" order-index="0" type="entity">
+            <layout ax="93" ay="61" awidth="279" aheight="160" x="93" y="61" width="279" height="160" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-sequence" id="p230272051651462879" name="Запрос Найти метлу" order-index="13" overview-order-index="11" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-16,-14">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/03/2019 12:55:45</creation-date>
+          <change-date>02/03/2019 13:37:48</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di427622864921080817" cid="LL001" type="lifeline" name="Lifeline3" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="public" creation-date="02/03/2019 12:57:57">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <lifeline classifier-name="" classifier-ref="di173124267934509788" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di150431163678135116" cid="SM001" type="sequence-action" name="Message1" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:58:38">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="send" message="Запрос Найти метлу" is-asynchronous="false" from="di658803520225636764" to="di724605318793268863" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di658803520225636764" cid="AB001" type="activation-bar" name="ExecutionOccurrence1" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:58:39">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di724605318793268863" cid="AB002" type="activation-bar" name="ExecutionOccurrence2" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 12:58:39">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di427622864921080817" />
+          </item>
+          <item id="di679601424663444731" cid="LL002" type="lifeline" name="Lifeline4" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:00:06">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <lifeline classifier-name="" classifier-ref="di936572547998052112" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di154431688920045241" cid="SM005" type="sequence-action" name="Message5" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 13:11:29">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="call" message="Определить класс и первичную форму слова Метлу" is-asynchronous="false" from="di724605318793268863" to="di424378213470001561" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di255968027875743262" cid="AB003" type="activation-bar" name="ExecutionOccurrence3" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:00:35">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di679601424663444731" />
+          </item>
+          <item id="di244705971242146130" cid="LL003" type="lifeline" name="Lifeline5" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:03:46">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <lifeline classifier-name="" classifier-ref="di180091221171391809" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di836053126896071708" cid="SM006" type="sequence-action" name="Message6" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:14:39">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="call" message="Получить класс и первичную форму слова Х" is-asynchronous="false" from="di424378213470001561" to="di255968027875743262" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di110462101810130519" cid="AB004" type="activation-bar" name="ExecutionOccurrence4" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:04:04">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di244705971242146130" />
+          </item>
+          <item id="di159423218144794543" cid="LL004" type="lifeline" name="Lifeline6" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:06:31">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <lifeline classifier-name="" classifier-ref="di469300957225251101" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di471450614353158922" cid="LL005" type="lifeline" name="Lifeline7" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="public" creation-date="02/03/2019 13:08:57">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <lifeline classifier-name="" classifier-ref="di755299577919949375" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di364678055808522477" cid="LL006" type="lifeline" name="Lifeline8" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:09:12">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <lifeline classifier-name="" classifier-ref="di537149559334438517" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di676689200704674820" cid="LL007" type="lifeline" name="Lifeline9" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:10:21">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <lifeline classifier-name="" classifier-ref="di437001655202737164" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di424378213470001561" cid="AB006" type="activation-bar" name="ExecutionOccurrence6" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:11:31">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di471450614353158922" />
+          </item>
+          <item id="di669623710927026415" cid="SM011" type="sequence-action" name="Message11" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 13:21:32">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="call" message="Определить класс Сущности Метла" is-asynchronous="false" from="di194715894500652982" to="di175515322717768501" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di854956861182807138" cid="AB007" type="activation-bar" name="ExecutionOccurrence7" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:16:12">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di175515322717768501" cid="AB008" type="activation-bar" name="ExecutionOccurrence8" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:16:12">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di364678055808522477" />
+          </item>
+          <item id="di840881117131206479" cid="SM008" type="sequence-action" name="Message8" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:17:05">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="call" message="Определить класс Сущности Х" is-asynchronous="false" from="di175515322717768501" to="di624990197913501577" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di624990197913501577" cid="AB009" type="activation-bar" name="ExecutionOccurrence9" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:17:08">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di676689200704674820" />
+          </item>
+          <item id="di623977593205370080" cid="SM012" type="sequence-action" name="Message12" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 13:22:10">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="call" message="Получить корневые классы сущностей Хранилищ" is-asynchronous="false" from="di810573489433037298" to="di110927484247233945" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di103374908820704202" cid="AB010" type="activation-bar" name="ExecutionOccurrence10" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:19:05">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di110927484247233945" cid="AB011" type="activation-bar" name="ExecutionOccurrence11" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:19:05">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di244705971242146130" />
+          </item>
+          <item id="di449770113804915747" cid="SM013" type="sequence-action" name="Message13" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 13:22:47">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="call" message="Получить корневые классы сущностей Инвентарь" is-asynchronous="false" from="di810573489433037298" to="di165143573235516514" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di165143573235516514" cid="AB012" type="activation-bar" name="ExecutionOccurrence12" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:20:17">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di159423218144794543" />
+          </item>
+          <item id="di194715894500652982" cid="AB013" type="activation-bar" name="ExecutionOccurrence13" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:21:41">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di427622864921080817" />
+          </item>
+          <item id="di810573489433037298" cid="AB014" type="activation-bar" name="ExecutionOccurrence14" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:22:18">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di427622864921080817" />
+          </item>
+          <item id="di166460522243604994" cid="SM014" type="sequence-action" name="Message14" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:24:29">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="reply" message="Первичная форма Метла" is-asynchronous="false" from="di724605318793268863" to="di658803520225636764" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di169394344127667227" cid="AB017" type="activation-bar" name="ExecutionOccurrence17" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:27:02">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di427622864921080817" />
+          </item>
+          <item id="di448115286404952046" cid="SM017" type="sequence-action" name="Message17" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:27:00">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="send" message="Что такое метла?" is-asynchronous="false" from="di169394344127667227" to="di881176718517617132" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di881176718517617132" cid="AB018" type="activation-bar" name="ExecutionOccurrence18" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:27:02">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di931171546379033813" cid="SM018" type="sequence-action" name="Message18" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 13:27:16">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="reply" message="Это Предмет" is-asynchronous="false" from="di881176718517617132" to="di169394344127667227" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di855223253758774171" cid="SM019" type="sequence-action" name="Message19" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 13:27:59">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>Сохранить </t>
+                    </p>
+                    <p s="S1">
+                      <t>класс </t>
+                    </p>
+                    <p s="S1">
+                      <t>сущности </t>
+                    </p>
+                    <p s="S1">
+                      <t>в </t>
+                    </p>
+                    <p s="S1">
+                      <t>локальном </t>
+                    </p>
+                    <p s="S1">
+                      <t>кеше </t>
+                    </p>
+                    <p s="S1">
+                      <t>классов </t>
+                    </p>
+                    <p s="S1">
+                      <t>сущностей.
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="call" message="Сохранить класс сущности" is-asynchronous="false" from="di931813769970866016" to="di105342658727804744" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di931813769970866016" cid="AB019" type="activation-bar" name="ExecutionOccurrence19" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:28:05">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di427622864921080817" />
+          </item>
+          <item id="di105342658727804744" cid="AB020" type="activation-bar" name="ExecutionOccurrence20" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:28:05">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di364678055808522477" />
+          </item>
+          <item id="di670483572258189544" cid="SM021" type="sequence-action" name="Message21" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:30:18">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="reply" message="" is-asynchronous="false" from="di105342658727804744" to="di931813769970866016" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di843074179682670123" cid="SM023" type="sequence-action" name="Message23" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="02/03/2019 13:31:20">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="call" message="Найти предмет метла " is-asynchronous="false" from="di819581795211908760" to="di635564128585597669" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di819581795211908760" cid="AB021" type="activation-bar" name="ExecutionOccurrence21" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:31:28">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di427622864921080817" />
+          </item>
+          <item id="di635564128585597669" cid="AB022" type="activation-bar" name="ExecutionOccurrence22" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:31:28">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di159423218144794543" />
+          </item>
+          <item id="di878067962738137456" cid="SM024" type="sequence-action" name="Message24" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:32:09">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="reply" message="Предмет не найден" is-asynchronous="false" from="di635564128585597669" to="di819581795211908760" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di887223557194411413" cid="SM025" type="sequence-action" name="Message25" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:32:38">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="reply" message="Метла не найден" is-asynchronous="false" from="di819581795211908760" to="di564369488717597339" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di564369488717597339" cid="AB023" type="activation-bar" name="ExecutionOccurrence23" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:32:39">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di564173447103558737" cid="SM026" type="sequence-action" name="Message26" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:37:29">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <sequence-action type="reply" message="" is-asynchronous="false" from="di424378213470001561" to="di608377029451502010" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="di608377029451502010" cid="AB024" type="activation-bar" name="ExecutionOccurrence24" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creator="Pa7c3c5b2da7146938eff36c87c5b3eb9" creation-date="02/03/2019 13:37:31">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <activation-bar lifeline-ref="di427622864921080817" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di245780399207519411" iid="e4410c917761430abd23b5829c887ef5" creation-date="02/03/2019 12:57:20" order-index="0" type="lifeline">
+            <layout ax="70" ay="50" awidth="140" aheight="708" x="70" y="50" width="140" height="708" angle="0" />
+          </item>
+          <item id="di427622864921080817" iid="d4a301fd70194e6e9d01ea2d2ade11d1" creation-date="02/03/2019 12:57:57" order-index="1" type="lifeline">
+            <layout ax="379" ay="50" awidth="163" aheight="658" x="379" y="50" width="163" height="658" angle="0" />
+          </item>
+          <item id="di150431163678135116" iid="14981c6f0b79486fb7bdab309203fc96" creation-date="02/03/2019 12:58:38" order-index="2" type="sequence-action">
+            <layout x1="150" y1="166" x2="450" y2="166" ax="150" ay="151" awidth="300" aheight="20" x="150" y="151" width="300" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di658803520225636764" to="di724605318793268863" show-sequence-number="false" />
+          </item>
+          <item id="di658803520225636764" iid="f01d18390d51487190d68670553d7c94" container="di245780399207519411" container-iid="e4410c917761430abd23b5829c887ef5" creation-date="02/03/2019 12:58:39" order-index="3" type="entity">
+            <layout ax="130" ay="166" awidth="20" aheight="40" x="130" y="166" width="20" height="40" angle="0" />
+          </item>
+          <item id="di724605318793268863" iid="c627eb4cd4ae432594a5b4dae6fd8c44" container="di427622864921080817" container-iid="d4a301fd70194e6e9d01ea2d2ade11d1" creation-date="02/03/2019 12:58:39" order-index="4" type="entity">
+            <layout ax="450.5" ay="166" awidth="20" aheight="40" x="450.5" y="166" width="20" height="40" angle="0" />
+          </item>
+          <item id="di679601424663444731" iid="01fb6d3b7d4b4c87b9eb544dd2fbf817" creation-date="02/03/2019 13:00:06" order-index="5" type="lifeline">
+            <layout ax="794" ay="50" awidth="190" aheight="488" x="794" y="62" width="190" height="488" angle="0" />
+          </item>
+          <item id="di255968027875743262" iid="8db22249e2f34199b14898b2998b63a7" container="di679601424663444731" container-iid="01fb6d3b7d4b4c87b9eb544dd2fbf817" creation-date="02/03/2019 13:00:35" order-index="7" type="entity">
+            <layout ax="879" ay="180" awidth="20" aheight="40" x="879" y="180" width="20" height="40" angle="0" />
+          </item>
+          <item id="di244705971242146130" iid="bcbc71b7db5040ec817c3cccbd76d996" creation-date="02/03/2019 13:03:46" order-index="8" type="lifeline">
+            <layout ax="1396" ay="50" awidth="140" aheight="500" x="1396" y="50" width="140" height="500" angle="0" />
+          </item>
+          <item id="di110462101810130519" iid="12a35d28cc7743e9be8fa58dafb90414" container="di244705971242146130" container-iid="bcbc71b7db5040ec817c3cccbd76d996" creation-date="02/03/2019 13:04:04" order-index="10" type="entity">
+            <layout ax="1456" ay="228" awidth="20" aheight="40" x="1456" y="228" width="20" height="40" angle="0" />
+          </item>
+          <item id="di159423218144794543" iid="63eea36632ed4af8bbe328a7c7be3343" creation-date="02/03/2019 13:06:31" order-index="11" type="lifeline">
+            <layout ax="1593" ay="50" awidth="140" aheight="658" x="1593" y="50" width="140" height="658" angle="0" />
+          </item>
+          <item id="di471450614353158922" iid="856b47bcb6264622b6ca37053f58e0de" creation-date="02/03/2019 13:08:57" order-index="12" type="lifeline">
+            <layout ax="602" ay="50" awidth="163" aheight="500" x="602" y="50" width="163" height="500" angle="0" />
+          </item>
+          <item id="di364678055808522477" iid="4807454d76e74ab5a2cee16604b3f754" creation-date="02/03/2019 13:09:12" order-index="13" type="lifeline">
+            <layout ax="1008" ay="44" awidth="140" aheight="500" x="1008" y="44" width="140" height="500" angle="0" />
+          </item>
+          <item id="di676689200704674820" iid="0e0e1bf8ca894d39991b107e0527a620" creation-date="02/03/2019 13:10:21" order-index="14" type="lifeline">
+            <layout ax="1190" ay="50" awidth="140" aheight="500" x="1190" y="50" width="140" height="500" angle="0" />
+          </item>
+          <item id="di154431688920045241" iid="833547e7b08e4929aa746607924ed72c" creation-date="02/03/2019 13:11:29" order-index="15" type="sequence-action">
+            <layout x1="470" y1="187" x2="673" y2="187" ax="470" ay="172" awidth="203" aheight="20" x="470" y="172" width="203" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di724605318793268863" to="di424378213470001561" show-sequence-number="false" />
+          </item>
+          <item id="di424378213470001561" iid="3f8c1538fa5d42db91fa674b8a276a5a" container="di471450614353158922" container-iid="856b47bcb6264622b6ca37053f58e0de" creation-date="02/03/2019 13:11:31" order-index="16" type="entity">
+            <layout ax="673.5" ay="187" awidth="20" aheight="40" x="673.5" y="187" width="20" height="40" angle="0" />
+          </item>
+          <item id="di836053126896071708" iid="888fb890ec81480b973ebb827399d606" creation-date="02/03/2019 13:14:39" order-index="17" type="sequence-action">
+            <layout x1="693" y1="211" x2="879" y2="211" ax="693" ay="196" awidth="186" aheight="20" x="693" y="196" width="186" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di424378213470001561" to="di255968027875743262" show-sequence-number="false" />
+          </item>
+          <item id="di854956861182807138" iid="4a545fc06bc94aae812e73ed1595380e" container="di245780399207519411" container-iid="e4410c917761430abd23b5829c887ef5" creation-date="02/03/2019 13:16:12" order-index="19" type="entity">
+            <layout ax="130" ay="289" awidth="20" aheight="40" x="130" y="289" width="20" height="40" angle="0" />
+          </item>
+          <item id="di175515322717768501" iid="688f94937d584d8aa7846a16a5604c0e" container="di364678055808522477" container-iid="4807454d76e74ab5a2cee16604b3f754" creation-date="02/03/2019 13:16:12" order-index="20" type="entity">
+            <layout ax="1068" ay="289" awidth="20" aheight="40" x="1068" y="289" width="20" height="40" angle="0" />
+          </item>
+          <item id="di840881117131206479" iid="028bffe350aa442c9f42f8d84e55a3d5" creation-date="02/03/2019 13:17:05" order-index="21" type="sequence-action">
+            <layout x1="1088" y1="307" x2="1250" y2="307" ax="1088" ay="292" awidth="162" aheight="20" x="1088" y="292" width="162" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di175515322717768501" to="di624990197913501577" show-sequence-number="false" />
+          </item>
+          <item id="di624990197913501577" iid="d38d8d08bcfa4e2eaf3e9efa59dcda42" container="di676689200704674820" container-iid="0e0e1bf8ca894d39991b107e0527a620" creation-date="02/03/2019 13:17:08" order-index="22" type="entity">
+            <layout ax="1250" ay="307" awidth="20" aheight="40" x="1250" y="307" width="20" height="40" angle="0" />
+          </item>
+          <item id="di103374908820704202" iid="2e1cf8676f094a3aa830236cb22983dd" container="di245780399207519411" container-iid="e4410c917761430abd23b5829c887ef5" creation-date="02/03/2019 13:19:05" order-index="24" type="entity">
+            <layout ax="130" ay="389" awidth="20" aheight="40" x="130" y="389" width="20" height="40" angle="0" />
+          </item>
+          <item id="di110927484247233945" iid="93ee7e6aa9df4479920f02750e0cdbf3" container="di244705971242146130" container-iid="bcbc71b7db5040ec817c3cccbd76d996" creation-date="02/03/2019 13:19:05" order-index="25" type="entity">
+            <layout ax="1456" ay="389" awidth="20" aheight="40" x="1456" y="389" width="20" height="40" angle="0" />
+          </item>
+          <item id="di165143573235516514" iid="c451decbd8c1482587260550fef42db2" container="di159423218144794543" container-iid="63eea36632ed4af8bbe328a7c7be3343" creation-date="02/03/2019 13:20:17" order-index="27" type="entity">
+            <layout ax="1653" ay="440" awidth="20" aheight="40" x="1653" y="440" width="20" height="40" angle="0" />
+          </item>
+          <item id="di669623710927026415" iid="cd55a70b46634197a9aa7ba761726b7f" creation-date="02/03/2019 13:21:32" order-index="28" type="sequence-action">
+            <layout x1="470" y1="300" x2="1068" y2="300" ax="470" ay="285" awidth="598" aheight="20" x="470" y="285" width="598" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di194715894500652982" to="di175515322717768501" show-sequence-number="false" />
+          </item>
+          <item id="di194715894500652982" iid="3326653920f64a83881c1d34f622e8de" container="di427622864921080817" container-iid="d4a301fd70194e6e9d01ea2d2ade11d1" creation-date="02/03/2019 13:21:41" order-index="29" type="entity">
+            <layout ax="450.5" ay="300" awidth="20" aheight="40" x="450.5" y="300" width="20" height="40" angle="0" />
+          </item>
+          <item id="di623977593205370080" iid="8b32eec0a8d7467a94f2e72f6405439c" creation-date="02/03/2019 13:22:10" order-index="30" type="sequence-action">
+            <layout x1="470" y1="401" x2="1456" y2="401" ax="470" ay="386" awidth="986" aheight="20" x="470" y="386" width="986" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di810573489433037298" to="di110927484247233945" show-sequence-number="false" />
+          </item>
+          <item id="di810573489433037298" iid="ed54c1d13a434453a03879a61bbe634e" container="di427622864921080817" container-iid="d4a301fd70194e6e9d01ea2d2ade11d1" creation-date="02/03/2019 13:22:18" order-index="31" type="entity">
+            <layout ax="450.5" ay="401" awidth="20" aheight="52" x="450.5" y="401" width="20" height="52" angle="0" />
+          </item>
+          <item id="di449770113804915747" iid="0434fa8d646242e4a62271c6ed5f3626" creation-date="02/03/2019 13:22:47" order-index="33" type="sequence-action">
+            <layout x1="470" y1="453" x2="1653" y2="453" ax="470" ay="438" awidth="1183" aheight="20" x="470" y="438" width="1183" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di810573489433037298" to="di165143573235516514" show-sequence-number="false" />
+          </item>
+          <item id="di166460522243604994" iid="7ab80f0791a34cf1b15f1ec1a960126c" creation-date="02/03/2019 13:24:29" order-index="34" type="sequence-action">
+            <layout x1="450" y1="202" x2="150" y2="202" ax="150" ay="187" awidth="300" aheight="20" x="150" y="187" width="300" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di724605318793268863" to="di658803520225636764" show-sequence-number="false" />
+          </item>
+          <item id="di448115286404952046" iid="8f1373db6209488a9fc8e6af5fe9ad21" creation-date="02/03/2019 13:27:00" order-index="35" type="sequence-action">
+            <layout x1="450" y1="475" x2="150" y2="475" ax="150" ay="460" awidth="300" aheight="20" x="150" y="460" width="300" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di169394344127667227" to="di881176718517617132" show-sequence-number="false" />
+          </item>
+          <item id="di169394344127667227" iid="8e4adc3c5f3249b19a89d1424e47be38" container="di427622864921080817" container-iid="d4a301fd70194e6e9d01ea2d2ade11d1" creation-date="02/03/2019 13:27:02" order-index="36" type="entity">
+            <layout ax="450.5" ay="475" awidth="20" aheight="40" x="450.5" y="475" width="20" height="40" angle="0" />
+          </item>
+          <item id="di881176718517617132" iid="28ac028cc2ce4dd2971d38865cce95b7" container="di245780399207519411" container-iid="e4410c917761430abd23b5829c887ef5" creation-date="02/03/2019 13:27:02" order-index="37" type="entity">
+            <layout ax="130" ay="475" awidth="20" aheight="40" x="130" y="475" width="20" height="40" angle="0" />
+          </item>
+          <item id="di931171546379033813" iid="d206d8b624f443c985c414373e9ac1ed" creation-date="02/03/2019 13:27:16" order-index="38" type="sequence-action">
+            <layout x1="150" y1="510" x2="450" y2="510" ax="150" ay="495" awidth="300" aheight="20" x="150" y="495" width="300" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di881176718517617132" to="di169394344127667227" show-sequence-number="false" />
+          </item>
+          <item id="di855223253758774171" iid="07127e95ed5b46c39e51c9f15cea4ed1" creation-date="02/03/2019 13:27:59" order-index="39" type="sequence-action">
+            <layout x1="470" y1="523" x2="1068" y2="523" ax="470" ay="508" awidth="598" aheight="20" x="470" y="508" width="598" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di931813769970866016" to="di105342658727804744" show-sequence-number="false" />
+          </item>
+          <item id="di931813769970866016" iid="eab5b1add8cf475784671b52825b6920" container="di427622864921080817" container-iid="d4a301fd70194e6e9d01ea2d2ade11d1" creation-date="02/03/2019 13:28:05" order-index="40" type="entity">
+            <layout ax="450.5" ay="523" awidth="20" aheight="40" x="450.5" y="523" width="20" height="40" angle="0" />
+          </item>
+          <item id="di105342658727804744" iid="5f40d9214b9a4f32b05d3e9e20f71272" container="di364678055808522477" container-iid="4807454d76e74ab5a2cee16604b3f754" creation-date="02/03/2019 13:28:05" order-index="41" type="entity">
+            <layout ax="1068" ay="523" awidth="20" aheight="40" x="1068" y="523" width="20" height="40" angle="0" />
+          </item>
+          <item id="di670483572258189544" iid="c239849fed3a49eb8a5954bd18b0eba9" creation-date="02/03/2019 13:30:18" order-index="42" type="sequence-action">
+            <layout x1="1068" y1="558" x2="470" y2="558" ax="470" ay="543" awidth="598" aheight="20" x="470" y="543" width="598" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di105342658727804744" to="di931813769970866016" show-sequence-number="false" />
+          </item>
+          <item id="di843074179682670123" iid="ef8241cb327b44df81d1dca8b4c6d4dd" creation-date="02/03/2019 13:31:20" order-index="43" type="sequence-action">
+            <layout x1="470" y1="611" x2="1653" y2="611" ax="470" ay="596" awidth="1183" aheight="20" x="470" y="596" width="1183" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di819581795211908760" to="di635564128585597669" show-sequence-number="false" />
+          </item>
+          <item id="di819581795211908760" iid="f5642f4afd5e477f88a039cb4aea096a" container="di427622864921080817" container-iid="d4a301fd70194e6e9d01ea2d2ade11d1" creation-date="02/03/2019 13:31:28" order-index="44" type="entity">
+            <layout ax="450.5" ay="611" awidth="20" aheight="40" x="450.5" y="611" width="20" height="40" angle="0" />
+          </item>
+          <item id="di635564128585597669" iid="f0a670b8129e4893ab21a8863335f0f2" container="di159423218144794543" container-iid="63eea36632ed4af8bbe328a7c7be3343" creation-date="02/03/2019 13:31:28" order-index="45" type="entity">
+            <layout ax="1653" ay="611" awidth="20" aheight="40" x="1653" y="611" width="20" height="40" angle="0" />
+          </item>
+          <item id="di878067962738137456" iid="a4e7182dcd7b40e399e6077b1269cba1" creation-date="02/03/2019 13:32:09" order-index="46" type="sequence-action">
+            <layout x1="1653" y1="648" x2="470" y2="648" ax="470" ay="633" awidth="1183" aheight="20" x="470" y="633" width="1183" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di635564128585597669" to="di819581795211908760" show-sequence-number="false" />
+          </item>
+          <item id="di887223557194411413" iid="d59b6a2ddfdf4b2d8a4266cf4614f4ea" creation-date="02/03/2019 13:32:38" order-index="47" type="sequence-action">
+            <layout x1="450" y1="650" x2="150" y2="650" ax="150" ay="635" awidth="300" aheight="20" x="150" y="635" width="300" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di819581795211908760" to="di564369488717597339" show-sequence-number="false" />
+          </item>
+          <item id="di564369488717597339" iid="fe47dd0d88db4a3288f2484bcf1ba2be" container="di245780399207519411" container-iid="e4410c917761430abd23b5829c887ef5" creation-date="02/03/2019 13:32:39" order-index="48" type="entity">
+            <layout ax="130" ay="650" awidth="20" aheight="40" x="130" y="650" width="20" height="40" angle="0" />
+          </item>
+          <item id="di564173447103558737" iid="52c09a3410c3429e93508009eca5e4fe" creation-date="02/03/2019 13:37:29" order-index="49" type="sequence-action">
+            <layout x1="673" y1="215" x2="470" y2="215" ax="470" ay="200" awidth="203" aheight="20" x="470" y="200" width="203" height="20" message-x="0" message-y="-10" />
+            <sequence-action from="di424378213470001561" to="di608377029451502010" show-sequence-number="false" />
+          </item>
+          <item id="di608377029451502010" iid="6cf00f53e2e647ae8139f099a1096b4c" container="di427622864921080817" container-iid="d4a301fd70194e6e9d01ea2d2ade11d1" creation-date="02/03/2019 13:37:31" order-index="50" type="entity">
+            <layout ax="450.5" ay="215" awidth="20" aheight="40" x="450.5" y="215" width="20" height="40" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-component" id="p746260568230567653" name="Диаграмма компонентов Оператора" order-index="17" overview-order-index="15" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-42,31">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>07/27/2019 12:01:59</creation-date>
+          <change-date>07/27/2019 12:24:30</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di751638133915333306" cid="CPT014" type="component" name="говорилка" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:02:20">
+            <stereotypes>
+              <stereotype name="subsystem" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di782462399839710109" cid="CPT015" type="component" name="слушалка" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:02:48">
+            <stereotypes>
+              <stereotype name="subsystem" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di116353787489431488" cid="CPT016" type="component" name="КонсольОператор" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:03:12">
+            <stereotypes>
+              <stereotype name="implement" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di418061275523916211" cid="CPT017" type="component" name="процессор семантики речи" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:03:46">
+            <stereotypes>
+              <stereotype name="entity" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di205523309443208946" cid="CPT018" type="component" name="БД словоформ" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="public" creation-date="07/27/2019 12:04:20">
+            <stereotypes>
+              <stereotype name="service" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di616174820648501435" cid="CPT019" type="component" name="Тапп" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:06:07">
+            <stereotypes>
+              <stereotype name="subsystem" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di282842755907759051" cid="CPT020" type="component" name="события оборудования и внешние события" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:06:33">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di948532234205102269" cid="CPT021" type="component" name="ДвижокОператор" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:08:10">
+            <stereotypes />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di662511912198626083" cid="CPT022" type="component" name="Файловая система Оператора" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:10:09">
+            <stereotypes>
+              <stereotype name="subsystem" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di769926695335094730" cid="CPT023" type="component" name="сборки процедур" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:10:44">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di537494093471298449" cid="CPT024" type="component" name="скрипты процедур" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:10:57">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di658478781845806295" cid="CPT025" type="component" name="утилиты процедур" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:11:21">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di100290790445557782" cid="CPT026" type="component" name="Настройки Оператора" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:11:37">
+            <stereotypes>
+              <stereotype name="entity" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di307527428301992889" cid="CPT027" type="component" name="Лог Оператора" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:11:53">
+            <stereotypes>
+              <stereotype name="subsystem" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di335864054320101059" cid="ELEM002" type="uml-provided-interface-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:15:29">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di330442592529770194" cid="REL013" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:16:04">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di116353787489431488" to="di751638133915333306">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di619206147605835885" cid="REL014" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:16:21">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di782462399839710109" to="di116353787489431488">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di301507043956900054" cid="REL018" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:20:36">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di116353787489431488" to="di418061275523916211">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di115172192792119584" cid="REL019" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:20:45">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di205523309443208946" to="di948532234205102269">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di978926464177411918" cid="REL020" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:20:52">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di616174820648501435" to="di948532234205102269">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di425724551902346829" cid="REL022" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:21:16">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di418061275523916211" to="di948532234205102269">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di567229848439563858" cid="REL023" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:21:33">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di282842755907759051" to="di948532234205102269">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di632144628664689042" cid="REL024" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:21:44">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di948532234205102269" to="di307527428301992889">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di901465180835025193" cid="REL026" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:22:13">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di100290790445557782" to="di948532234205102269">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di677806995798557413" cid="REL027" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:22:23">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di658478781845806295" to="di948532234205102269">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di904627546157550102" cid="REL028" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:22:29">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di537494093471298449" to="di948532234205102269">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di708440671908461488" cid="REL029" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:22:36">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di769926695335094730" to="di948532234205102269">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di616245170610429866" cid="REL030" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:22:44">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di662511912198626083" to="di948532234205102269">
+              <start-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di398911715119011903" cid="REL031" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:23:26">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di948532234205102269" to="di116353787489431488">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di324161162221790612" cid="CMT001" type="comment" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" visibility="package" creation-date="07/27/2019 12:24:30">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <comment>Кривая диаграмма в кривом диаграммере.
+Бумажная версия удобнее сейчас. </comment>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di751638133915333306" iid="8a2174189a034b968639a90d7359d4fa" creation-date="07/27/2019 12:02:20" order-index="0" type="entity">
+            <layout ax="63" ay="52" awidth="145" aheight="56" x="63" y="52" width="145" height="56" angle="0" />
+          </item>
+          <item id="di782462399839710109" iid="5d364e687ddc470ba886412efb0e1fb9" creation-date="07/27/2019 12:02:48" order-index="1" type="entity">
+            <layout ax="64" ay="176" awidth="140" aheight="56" x="64" y="176" width="140" height="56" angle="0" />
+          </item>
+          <item id="di116353787489431488" iid="1a0a7dfaa619440eaf1c11308fe03fa5" creation-date="07/27/2019 12:03:12" order-index="2" type="entity">
+            <layout ax="238.5" ay="69" awidth="204" aheight="135" x="238.5" y="69" width="204" height="135" angle="0" />
+          </item>
+          <item id="di418061275523916211" iid="abd23eff31b042578280aea98b5fab98" creation-date="07/27/2019 12:03:46" order-index="3" type="entity">
+            <layout ax="165.5" ay="244" awidth="277" aheight="56" x="165.5" y="244" width="277" height="56" angle="0" />
+          </item>
+          <item id="di205523309443208946" iid="9d16b75eba934ba5ba03752c2f906509" creation-date="07/27/2019 12:04:20" order-index="4" type="entity">
+            <layout ax="271" ay="332" awidth="132" aheight="96" x="271" y="332" width="132" height="96" angle="0" />
+          </item>
+          <item id="di616174820648501435" iid="23c2bb51f3f14d0cb86d21d66d40adad" creation-date="07/27/2019 12:06:07" order-index="5" type="entity">
+            <layout ax="271" ay="465" awidth="139" aheight="67" x="271" y="465" width="139" height="67" angle="0" />
+          </item>
+          <item id="di282842755907759051" iid="e9e884567d1243e1a429d3c5fb3f8166" creation-date="07/27/2019 12:06:33" order-index="6" type="entity">
+            <layout ax="63" ay="580" awidth="219" aheight="67" x="63" y="580" width="219" height="67" angle="0" />
+          </item>
+          <item id="di948532234205102269" iid="644da8b3315247388e3db46079c6e764" creation-date="07/27/2019 12:08:10" order-index="7" type="entity">
+            <layout ax="479" ay="69" awidth="201" aheight="578" x="479" y="69" width="201" height="578" angle="0" />
+          </item>
+          <item id="di662511912198626083" iid="2a7e4dc1cc8b465398b78eea77f73374" creation-date="07/27/2019 12:10:09" order-index="8" type="entity">
+            <layout ax="659" ay="70" awidth="299" aheight="83" x="659" y="70" width="299" height="83" angle="0" />
+          </item>
+          <item id="di769926695335094730" iid="37d513c507df492d9084d9245d96c1bc" creation-date="07/27/2019 12:10:44" order-index="9" type="entity">
+            <layout ax="742" ay="167" awidth="199" aheight="54" x="742" y="167" width="199" height="54" angle="0" />
+          </item>
+          <item id="di537494093471298449" iid="6b99c9c1105a44e1b2f97e0042eacfaf" creation-date="07/27/2019 12:10:57" order-index="10" type="entity">
+            <layout ax="742" ay="232" awidth="219" aheight="67" x="742" y="232" width="219" height="67" angle="0" />
+          </item>
+          <item id="di658478781845806295" iid="22a5a4e71c9b4289a9435d14d584025e" creation-date="07/27/2019 12:11:21" order-index="11" type="entity">
+            <layout ax="737" ay="320" awidth="209" aheight="54" x="737" y="320" width="209" height="54" angle="0" />
+          </item>
+          <item id="di100290790445557782" iid="d11b3a60bdfd4f5e87b7be12918e4bb0" creation-date="07/27/2019 12:11:37" order-index="12" type="entity">
+            <layout ax="722.5" ay="428" awidth="236" aheight="56" x="722.5" y="428" width="236" height="56" angle="0" />
+          </item>
+          <item id="di307527428301992889" iid="641ccb1e3a1446949f8e4c2514b90ac0" creation-date="07/27/2019 12:11:53" order-index="13" type="entity">
+            <layout ax="721.5" ay="509" awidth="180" aheight="56" x="721.5" y="509" width="180" height="56" angle="0" />
+          </item>
+          <item id="di330442592529770194" iid="58cade05ecbd4772bc88c0894ff76f31" creation-date="07/27/2019 12:16:04" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="238" y1="87" x2="208" y2="86" start-border-pos="0.966666666666667" end-border-pos="0.401785714285714">
+              <points>
+                <point x="238" y="87" />
+                <point x="208" y="86" />
+              </points>
+            </layout>
+            <relation from="di116353787489431488" from-iid="1a0a7dfaa619440eaf1c11308fe03fa5" to="di751638133915333306" to-iid="8a2174189a034b968639a90d7359d4fa" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di619206147605835885" iid="985c6ea50e184ae7a3c2666c3350665d" creation-date="07/27/2019 12:16:21" order-index="15" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="204" y1="194" x2="238" y2="194" start-border-pos="0.330357142857143" end-border-pos="0.768518518518518">
+              <points>
+                <point x="204" y="194" />
+                <point x="238" y="194" />
+              </points>
+            </layout>
+            <relation from="di782462399839710109" from-iid="5d364e687ddc470ba886412efb0e1fb9" to="di116353787489431488" to-iid="1a0a7dfaa619440eaf1c11308fe03fa5" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di301507043956900054" iid="8e7f8b7b3a664d00a6e972a5e4aea52a" creation-date="07/27/2019 12:20:36" order-index="16" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="276" y1="204" x2="238" y2="244" start-border-pos="0.70431645711263" end-border-pos="0.065884476534296">
+              <points>
+                <point x="276" y="204" />
+                <point x="238" y="244" />
+              </points>
+            </layout>
+            <relation from="di116353787489431488" from-iid="1a0a7dfaa619440eaf1c11308fe03fa5" to="di418061275523916211" to-iid="abd23eff31b042578280aea98b5fab98" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di115172192792119584" iid="b5bafedcf477479c9d4e535dd4629e10" creation-date="07/27/2019 12:20:45" order-index="17" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="403" y1="382" x2="479" y2="385" start-border-pos="0.381051937739054" end-border-pos="0.863321799307958">
+              <points>
+                <point x="403" y="382" />
+                <point x="479" y="385" />
+              </points>
+            </layout>
+            <relation from="di205523309443208946" from-iid="9d16b75eba934ba5ba03752c2f906509" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di978926464177411918" iid="661dfd4eaee1438d87a7084336fab4e4" creation-date="07/27/2019 12:20:52" order-index="18" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="410" y1="501" x2="479" y2="505" start-border-pos="0.384328358208955" end-border-pos="0.811418685121107">
+              <points>
+                <point x="410" y="501" />
+                <point x="479" y="505" />
+              </points>
+            </layout>
+            <relation from="di616174820648501435" from-iid="23c2bb51f3f14d0cb86d21d66d40adad" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di425724551902346829" iid="1b10055ce6004b048e50daeed8784ea9" creation-date="07/27/2019 12:21:16" order-index="19" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="303" y1="244" x2="479" y2="209" start-border-pos="0.123646209386282" end-border-pos="0.939446366782007">
+              <points>
+                <point x="303" y="244" />
+                <point x="479" y="209" />
+              </points>
+            </layout>
+            <relation from="di418061275523916211" from-iid="abd23eff31b042578280aea98b5fab98" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di567229848439563858" iid="462cb964badb4d2e8132aef5b716029d" creation-date="07/27/2019 12:21:33" order-index="20" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="282" y1="617" x2="479" y2="619" start-border-pos="0.388059701492537" end-border-pos="0.762110726643599">
+              <points>
+                <point x="282" y="617" />
+                <point x="479" y="619" />
+              </points>
+            </layout>
+            <relation from="di282842755907759051" from-iid="e9e884567d1243e1a429d3c5fb3f8166" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di632144628664689042" iid="124218224aa1459bbf691312358f6208" creation-date="07/27/2019 12:21:44" order-index="21" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="680" y1="435" x2="776" y2="509" start-border-pos="0.408371618462269" end-border-pos="0.0752909342447917">
+              <points>
+                <point x="680" y="435" />
+                <point x="776" y="509" />
+              </points>
+            </layout>
+            <relation from="di948532234205102269" from-iid="644da8b3315247388e3db46079c6e764" to="di307527428301992889" to-iid="641ccb1e3a1446949f8e4c2514b90ac0" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di901465180835025193" iid="370813f3eee74c2d89e5b00d3410baea" creation-date="07/27/2019 12:22:13" order-index="22" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="737" y1="428" x2="680" y2="403" start-border-pos="0.0153601694915254" end-border-pos="0.394284601442542">
+              <points>
+                <point x="737" y="428" />
+                <point x="680" y="403" />
+              </points>
+            </layout>
+            <relation from="di100290790445557782" from-iid="d11b3a60bdfd4f5e87b7be12918e4bb0" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di677806995798557413" iid="25c45b2fa4864038860296e06be9fe3e" creation-date="07/27/2019 12:22:23" order-index="23" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="737" y1="339" x2="680" y2="332" start-border-pos="0.912037037037037" end-border-pos="0.363754325259516">
+              <points>
+                <point x="737" y="339" />
+                <point x="680" y="332" />
+              </points>
+            </layout>
+            <relation from="di658478781845806295" from-iid="22a5a4e71c9b4289a9435d14d584025e" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di904627546157550102" iid="4b752b0b945145b4a584c7fb26ef5384" creation-date="07/27/2019 12:22:29" order-index="24" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="742" y1="265" x2="680" y2="301" start-border-pos="0.876865671641791" end-border-pos="0.350169805506934">
+              <points>
+                <point x="742" y="265" />
+                <point x="680" y="301" />
+              </points>
+            </layout>
+            <relation from="di537494093471298449" from-iid="6b99c9c1105a44e1b2f97e0042eacfaf" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di708440671908461488" iid="7a2a7f30cfd94f64a4557944881d864a" creation-date="07/27/2019 12:22:36" order-index="25" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="742" y1="197" x2="680" y2="193" start-border-pos="0.861111111111111" end-border-pos="0.30363321799308">
+              <points>
+                <point x="742" y="197" />
+                <point x="680" y="193" />
+              </points>
+            </layout>
+            <relation from="di769926695335094730" from-iid="37d513c507df492d9084d9245d96c1bc" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di616245170610429866" iid="4f12cc0fc5254ce29b7bc9244932d5f8" creation-date="07/27/2019 12:22:44" order-index="26" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="659" y1="115" x2="479" y2="69" start-border-pos="0.864457831325301" end-border-pos="0">
+              <points>
+                <point x="659" y="115" />
+                <point x="479" y="69" />
+              </points>
+            </layout>
+            <relation from="di662511912198626083" from-iid="2a7e4dc1cc8b465398b78eea77f73374" to="di948532234205102269" to-iid="644da8b3315247388e3db46079c6e764" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di398911715119011903" iid="abd3140c3c0f4debbe4259349f974c0a" creation-date="07/27/2019 12:23:26" order-index="27" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="479" y1="92" x2="442" y2="91" start-border-pos="0.990051903114187" end-border-pos="0.290740740740741">
+              <points>
+                <point x="479" y="92" />
+                <point x="442" y="91" />
+              </points>
+            </layout>
+            <relation from="di948532234205102269" from-iid="644da8b3315247388e3db46079c6e764" to="di116353787489431488" to-iid="1a0a7dfaa619440eaf1c11308fe03fa5" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di324161162221790612" iid="78b920313e204cbe90de4f02de88ef04" creation-date="07/27/2019 12:24:30" order-index="28" type="entity">
+            <layout ax="50" ay="-67" awidth="411" aheight="96" x="50" y="-67" width="411" height="96" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

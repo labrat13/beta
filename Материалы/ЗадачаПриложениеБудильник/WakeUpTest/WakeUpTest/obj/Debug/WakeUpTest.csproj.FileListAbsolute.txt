@@ -1,0 +1,7 @@
+C:\Documents and Settings\Smith John\Мои документы\Visual Studio 2008\Projects\WakeUpTest\WakeUpTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Smith John\Мои документы\Visual Studio 2008\Projects\WakeUpTest\WakeUpTest\bin\Debug\WakeUpTest.exe
+C:\Documents and Settings\Smith John\Мои документы\Visual Studio 2008\Projects\WakeUpTest\WakeUpTest\bin\Debug\WakeUpTest.pdb
+C:\Documents and Settings\Smith John\Мои документы\Visual Studio 2008\Projects\WakeUpTest\WakeUpTest\obj\Debug\WakeUpTest.exe
+C:\Documents and Settings\Smith John\Мои документы\Visual Studio 2008\Projects\WakeUpTest\WakeUpTest\obj\Debug\WakeUpTest.pdb
+C:\Documents and Settings\Smith John\Мои документы\Visual Studio 2008\Projects\WakeUpTest\WakeUpTest\bin\Debug\SOUND181.WAV
+C:\Documents and Settings\Smith John\Мои документы\Visual Studio 2008\Projects\WakeUpTest\WakeUpTest\bin\Debug\ST.WAV
